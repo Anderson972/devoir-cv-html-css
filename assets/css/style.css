@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: Raleway, sans-serif;
+}
+h1, h2, h3{
+    font-family: Lato, sans-serif;
+}
+header, main, footer{
+    width: 1160px;
+    justify-self: center;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #17abb3;
+    height: 15em;
+    color: #ffffff;
+}
+header h1{
+    font-size: 3.5em;
+    line-height: 1.3em;
+}
+header > img:first-child{
+    border: solid 0.3em #ffffff;
+    border-radius: 50%;
+    align-self: center;
+    height: 9.4em;
+
+}
+header div{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px 7.4em;
+}
+header ul{
+    display: flex;
+    width: 20em;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 1em;
+    gap: 10px;
+}
+h2{
+    line-height: 1.5em;
+}
+header li{
+    display: inline-block;
+    width: 115px;
+}
+header ul img{
+    height: 22px;
+    display: inline;
+    vertical-align: middle;
+    margin: 0px 5px;
+}
+header a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
