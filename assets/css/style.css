@@ -102,8 +102,7 @@ aside span{
     display: inline-block;
     font-weight: bold;
 } 
-.end{
-    text-align: end;
+.lang_lvl{
     font-size: 1.0em;
     font-weight: normal;
 }
