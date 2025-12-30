@@ -1,3 +1,4 @@
+@import url("_dinamisme.css");
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     box-sizing: border-box;
@@ -5,7 +6,7 @@
     margin: 0px;
     font-family: Raleway, sans-serif;
 }
-h1, h2, h3{
+h1, h2, h3, h4{
     font-family: Lato, sans-serif;
 }
 header, main, footer{
@@ -24,10 +25,12 @@ header h1{
     font-size: 3.5em;
     line-height: 1.3em;
 }
-header > img:first-child{
+header > a{
+    align-self: center;
+}
+header > a img{
     border: solid 0.3em #ffffff;
     border-radius: 50%;
-    align-self: center;
     height: 9.4em;
 
 }
@@ -64,5 +67,122 @@ header ul img{
 header a{
     text-decoration: none;
     color: #ffffff;
+}
+main{
+    height: 956px;
+}
+h3{
+    color: #17abb3;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+aside{
+    display: inline-flex;
+    flex-direction: column;
+    padding: 50px;
+    width: 350px;
+    height: 100%;
+    background-color: #f5f5f5;
+}
+hr{
+    margin: 10px 0;
+}
+.competences{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px 45px;
+    margin: 10px 0 38px;
+}
+aside ul{
+    margin: 20px 0 ;
+
+}
+aside span{
+    display: inline-block;
+    font-weight: bold;
+} 
+.end{
+    text-align: end;
+    font-size: 1.0em;
+    font-weight: normal;
+}
+.etoile{
+    display: inline-block;
+    width: 48%;
+    text-align: end;
+}
+.etoile img{
+    height: 15px;
+}
+
+aside section:nth-last-child(-n+2) 
+li::marker{
+    color: #17abb3;
+    font-size: 1.5em;
+}
+aside section:nth-last-child(-n+2) 
+li{
+    list-style-type: square;
+    margin-left: 20px;
+    line-height: 1.2em;
+    font-size: 1em;
+    font-weight: lighter;
+}
+.experiences{
+    display: inline-flex;
+    flex-direction: column;
+    padding: 50px 43px;
+    width: calc(99% - 350px);
+    height: 100%;
+}
+.experiences p{
+    text-indent: 25px;
+    text-align: justify;
+}
+.experiences p:first-of-type{
+    margin-top: 10px;
+}
+main p:last-child{
+    margin-bottom: 20px;
+}
+article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+.experiences article small{
+    width: 100%;
+    font-style: italic;
+    margin-bottom: 10px;
+    font-size: 0.76em;
+}
+.experiences article span{
+    color: #17abb3;
+    text-align: end;
+    margin-top: 10px;
+
+}
+.experiences h3:nth-last-of-type(-n+3), h4{
+    margin-top: 10px ;
+}
+footer{
+    background-color: #17abb3;
+    color: #ffffff;
+    height: 83px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer small{
+    font-style: italic;
+}
+footer img{
+    margin: 5px;
+    height: 32px;
 }
 
